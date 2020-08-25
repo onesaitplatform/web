@@ -1,0 +1,66 @@
+/* ONESAIT CSS OVERRIDE */
+
+.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}
+
+/* TRIANGLE SVG PATH */
+.triangle{webkit-clip-path: polygon(0 0,100% 0,0 100%); clip-path: polygon(0 0,100% 0,0 100%);    margin-top: -1px;   height: 100px;    max-width: 100%;    margin: 0 auto;    display: block;    background-color: #6ac7b1;    margin-top: 0px;}
+ @media (max-width: 767px) {
+	.triangle { display: none; visibility: hidden; } 	
+ }	
+.triangle2{height: 68.2667px;-webkit-clip-path: polygon(0 100%,100% 0,100% 100%);clip-path: polygon(0 100%,100% 0,100% 100%);background-color: #6ac7b1; margin-bottom: -1px;}
+.triangle3{height: 68px;-webkit-clip-path: polygon(0 0,100% 0,0 100%);clip-path: polygon(0 0,100% 0,0 100%);background-color: #0f242c; margin-top: -1px; }
+
+
+h1{	color: #1a3b47;font-family: PlayfairDisplay-Regular;    line-height: 1;}	
+.text-width-large  {font-family: SohoGothicPro-Regular;  color: #1a3b47; font-size: 30px; line-height: 2.6rem }
+.text-width-large2 {font-size: 15px;    line-height: 1.6rem;    max-width: 750px;}
+.endLogo{    background-size: 126px;    background-repeat: no-repeat;    height: 54px;    width: 100%;    background-position-x: center;    background-position-y: 0px;}
+
+/* PROPOSITOS BLOCKS */
+.proposito-block{min-height: 100px;background-color:#40c7b511;display: flex;align-items: top;padding: 30px 10px 45px;margin-bottom: 50px;align-items: center;color: #0f242c;}
+.proposito-block .left-icons {    display: inline-block;    width: 45%;    height: 100%;}
+
+/* FEATURE BLOCKS */
+.feature-block {min-height: 100px; border-radius: 8px; display: flex;align-items: top;padding: 12px 10px 12px; margin-bottom: 20px; align-items: center;color: #f5f5f5;}
+.feature-block .left-icons { display: inline-block; width: 40%; height: 100%;}
+.feature-block .right-text{	display: inline-block;	width: 60%;	height: 100%;	padding: 12px 12px 30px 12px; }
+.feature-block .right-text .title-prop { font-family: SohoGothicPro-Medium;  font-size: 24px;  margin-bottom: 15px;  text-align: left;    line-height: 1.8;    font-weight: 500; color: #f5f5f5;	letter-spacing: -.3px;}
+.feature-block .right-text .desc-prop  { font-family: SohoGothicPro-Light; text-align: left; font-size: 16px;  line-height: 1.6;    font-weight: 500;        color: #f5f5f5;	padding: 0 30px;}
+.feature-block .left-icons .icon { width: 95px; height: 75px;  margin: 25px 0px;  background-repeat: no-repeat;  background-position: 50%;    background-size: contain;    display: inline-block;    position: relative;}
+.feature-block.bg-feature-1 { background-color: #466875 !important }
+.feature-block.bg-feature-2 { background-color: #E0ECF5 !important; }
+.feature-block.bg-feature-3 { background-color: #CCEEE3 !important; }
+.feature-block.bg-feature-4 { background-color: #0f242c !important; }
+.feature-block .right-text .title-prop.feature-2 {  color: #0f242c!important; }
+.feature-block .right-text .title-prop.feature-3 {  color: #0f242c!important; }
+.feature-block .right-text .title-prop.feature-4 {  color: #0f242c!important; }
+
+.feature-block .right-text .desc-prop.feature-2  {  color: #0f242c!important; }
+.feature-block .right-text .desc-prop.feature-3  {  color: #0f242c!important; }
+.feature-block .right-text .desc-prop.feature-4  {  color: #0f242c!important; }
+
+@media (max-width: 600px) { 
+	.proposito-block {margin: 15px; -ms-flex-direction: column-reverse; flex-direction: column-reverse;}
+	.proposito-block .left-icons{ width: 100%;} 
+	.proposito-block .right-text{ width: 100% !important;  box-sizing: border-box;  padding: 15px !important;} 
+	.proposito-block .right-text .title-prop { font-size: 20px!important; }
+	.proposito-block .right-text .desc-prop  { font-size: 14px!important; }
+	
+	.feature-block {margin: 15px; -ms-flex-direction: column-reverse; flex-direction: column-reverse;}
+	.feature-block .left-icons{ width: 100%;} 
+	.feature-block .right-text{ width: 100% !important;  box-sizing: border-box;  padding: 15px !important;} 
+	.feature-block .right-text .title-prop { font-size: 20px!important; }
+	.feature-block .right-text .desc-prop  { font-size: 14px!important; }
+}
+
+.left-icons .icon {    width: 100px;    height: 75px;    margin: 25px 15px;    background-repeat: no-repeat;    background-position: 50%;    background-size: contain;    display: inline-block;    position: relative;	}
+.left-icons .icon .icon-txt {	bottom: 0;	left: 50%;	width: 200px;	transform: translate3d(-50%,200%,0);	font-size: 14px;	color: #498;	opacity: .8;	font-family: SohoGothicPro-Regular !important;}	
+.proposito-block .right-text{	display: inline-block;	width: 55%;	height: 100%;	padding: 50px 15px 50px 0;}
+.proposito-block .right-text .title-prop {    font-family: SohoGothicPro-Medium;    font-size: 24px;    margin-bottom: 15px;    text-align: left;    line-height: 1.8;    font-weight: 500;        color: #1a3b47;	letter-spacing: -.3px;}
+.proposito-block .right-text .desc-prop {    font-family: SohoGothicPro-Regular;    text-align: left;    font-size: 16px;    line-height: 1.6;    font-weight: 500;        color: #1a3b47;	padding: 0 30px;}
+.experience {font-family: PlayfairDisplay-Regular;font-size: 50px;text-transform: initial;color:#151515;}
+.osHeader {font-family: PlayfairDisplay-Regular;color:#1a3b47;text-align: center; max-width: 1024px; text-transform: initial; letter-spacing: 0; font-size: 42px;line-height: 1.3; display: inline-block;padding: 25px 0;}
+
+/*  clearfix */
+.clearfix:after,.m--clearfix:before{content:" ";display:table}
+.clearfix:after{clear:both}
