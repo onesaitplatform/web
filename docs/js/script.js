@@ -710,11 +710,7 @@
 						es: 'js/i18n/es.json'
 				}).done( function() {
 					 console.log('LANGUAGES LOADED');
-					let currentlang =  i18n.locale === 'en' ? 'es' : 'en';
-					console.log('cambiando a idioma: ' + currentlang);
-					$('html')[0].lang = currentlang;
-					i18n.locale = currentlang;					
-					$('[data-i18n]').i18n();
+					 
 					 } );
 				
 				
