@@ -19,7 +19,7 @@
 	"swiper-1":"Impulsando la creación de nuevas soluciones en la era digital.",
 	"swiper-2":"Ayúdanos a construir la comunidad Open Onesait Platform Community.",
 	
-	"h2-services":"Construye nuevas aplicaciones de negocio.",
+	"h2-services":"¿Qué es Onesait Platform Community?",
 	"h2-projects":"Últimos Proyectos",
 	"h2-history":"Evolución de Onesait Platform",
 	"h2-trust":"Ellos ya confían en Onesait Platform",
@@ -46,8 +46,10 @@
 	"h6-awards":"Premios Recibidos",
 	"h6-companies":"Empresas Conectadas",	
 		
-	"props-item-1":"1. Crea una estrategia integral de datos",
-	"props-item-Description-1":"Porque entiendes la relevancia del dato para la toma de decisiones en los procesos de negocio, te ofrecemos las herramientas que necesitas para unificar la gestión del dato, allá donde se produzca y con las últimas tecnologías",
+	"props-item-1":"Onesait Platform Community es la distribución Open Source de Onesait Platform impulsada por Minsait.",
+	"props-item-Description-1":"Onesait Platform Community es una Plataforma Digital Open Source que habilita el desarrollo ágil de soluciones sobre tecnologías estándares y opensource y habilita el despliegue automático con Docker y Kubernetes sobre CaaS gestionando todo el ciclo de vida del producto.",
+	"props-item-Description-1-2":"Si estás buscando soporte empresaria lo quieres ser partner de Onesait Platform, puedes contactar con nosotros en",
+	"props-item-Description-1-3":"¿Quieres conocer el detalle de los módulos que componen la Plataforma?",
 	"p1-icon-1":"Cognitive Services",
 	"p1-icon-2":"Data Flow",
 	"p1-icon-3":"Data Mining",
