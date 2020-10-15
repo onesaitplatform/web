@@ -56,6 +56,7 @@
 	"p1-icon-4":"Datahub",
 	"p1-icon-5":"Notebooks",
 	"p1-icon-6":"Report Engine",
+	"p1-icon-7":"Cloud Independence",
 	
 	"props-item-2":"2. Conecta el mundo físico y el virtual",
 	"props-item-Description-2":"Da un paso mas allá e integra el mundo físico en tus soluciones digitales, desde la toma de datos de sensores hasta la analítica en el edge para fusionar los mundos IT y OT para desarrollar aplicaciones de negocio en toda la cadena de valor.",
@@ -65,6 +66,7 @@
 	"p2-icon-4":"IoT Broker",
 	"p2-icon-5":"Synoptics",
 	"p2-icon-6":"Workload consolidation",
+
 	
 	"props-item-3":"3. Controla y crece de una forma flexible",
 	"props-item-Description-3":"El entorno digital es vibrante y dinámico y debes asegurar la escalabilidad y seguridad de las nuevas soluciones software desde la prueba de concepto a la vez que te lanzas a desarrollar y testar nuevas aplicaciones, con ambición de futuro.Think Big, Start Small.",
